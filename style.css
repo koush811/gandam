@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: darkgray;
+    background-color: 	#6d7a9fd7;
     padding: 30px 10px 30px 10px;
     position: fixed;
     z-index: 10;
@@ -20,47 +20,72 @@ header{
     text-decoration: none;
     color: black;
     padding: 10px;
+    border: solid 1.5px black;
+    border-radius: 5px;
 }
 .link a:hover{
-    background-color: aliceblue;
+    background-color: #828aa3d4;
     transition: all 1s 0s ease;
 }
 .link-u{
     padding-right: 30px;
 }
+.main-title{
+    background-color: rgba(0, 0, 0, 0.913);
+}
 .backimg img{
     width: 100%;
-    height: 100%;
+    height: auto;
     position: fixed;
+    
 }
 .title{
     position: absolute;
     z-index: 9;
     top: 30%;
-    left: 20%;
-    color: white;
+    left: 10%;
+    color: #d1d5e0da;
     font-size: 80px;
 }
 li{
     margin-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
-}
-.naiyou{}
-    
+}   
 .shoukai_u{
     position: absolute;
-    margin: auto;
+    margin: 20px;
     top: 60%;
-    font-size: 150%;
+    font-size: 100%;
+    color: #d1d5e0e3;
+}
+.shoukai_u h2{
     display: flex;
     justify-content: space-between;
-}
+} 
 .nennpyou_u{
     position: absolute;
     top: 75%;
+    min-height: 100%;
     margin: auto;
-    background-color: rgba(240, 248, 255, 0.532);
+    background-color: #828aa3e4;
+    
+}
+.nennpyou_u h2{
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 50%;
+    margin: 30px 30px;
+    background-color: 	#213265e0;
+    color: #d1d5e0e9;
+}
+.nennpyou_u p{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
 }
 
 
