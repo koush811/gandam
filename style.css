@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: 	#6d7a9fd7;
+    background-color: 	#7cd5f5d4;
     padding: 30px 10px 30px 10px;
     position: fixed;
     z-index: 10;
@@ -18,13 +18,13 @@ header{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px;
     border: solid 1.5px black;
     border-radius: 5px;
 }
 .link a:hover{
-    background-color: #828aa3d4;
+    background-color: #2b87d6f4;
     transition: all 1s 0s ease;
 }
 .link-u{
@@ -44,7 +44,7 @@ header{
     z-index: 9;
     top: 30%;
     left: 10%;
-    color: #d1d5e0da;
+    color: #E5F7FD;
     font-size: 80px;
 }
 li{
@@ -57,7 +57,7 @@ li{
     margin: 20px;
     top: 60%;
     font-size: 100%;
-    color: #d1d5e0e3;
+    color: #E5F7FD;
 }
 .shoukai_u h2{
     display: flex;
@@ -68,10 +68,10 @@ li{
     top: 75%;
     min-height: 100%;
     margin: auto;
-    background-color: #828aa3e4;
+    background-color:#b2e6f9d0;
     
 }
-.nennpyou_u h2{
+.main{
     display: flex;
     justify-content: center;
     border: solid black 2px;
@@ -79,15 +79,40 @@ li{
     padding: 10px;
     width: 50%;
     margin: 30px 30px;
-    background-color: 	#213265e0;
-    color: #d1d5e0e9;
+    background-color: #48abcfd5;
+    color: #E5F7FD;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 30%;
+    margin: 30px 30px;
+    background-color: #488ccfd5;
+    color: #E5F7FD;
 }
 .nennpyou_u p{
     display: flex;
     justify-content: space-between;
     margin: 10px 30px;
 }
+.nennpyou_u img{
+    margin: 30px;
+    width: 30%;
+}
+/*#7cd5f5d4
 
+#2b87d6f4
+
+#b2e6f9d0
+
+#48abcfd5
+
+#487acfd5
+
+#E5F7FD*/
 
 
 
