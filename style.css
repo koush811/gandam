@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 header{
-    background-color: 	#7cd5f5d4;
+    top: 0px;
+    background-color: 	#56cffbd4;
     padding: 30px 10px 30px 10px;
     position: fixed;
     z-index: 10;
@@ -30,47 +31,98 @@ header{
 .link-u{
     padding-right: 30px;
 }
-.main-title{
-    background-color: rgba(0, 0, 0, 0.913);
+.container {
+  width: 100%;
 }
-.backimg img{
-    width: 100%;
-    height: auto;
-    position: fixed;
-    
+
+.fv {
+  height: 550px;
+  overflow: hidden;
 }
-.title{
-    position: absolute;
-    z-index: 9;
-    top: 30%;
-    left: 10%;
-    color: #E5F7FD;
-    font-size: 80px;
+
+.swiper{
+  width: 100%;
+  overflow: hidden;
+  height: inherit;
+}
+
+.swiper-slide{
+  
+  overflow: hidden;
+}
+
+.swiper-slide-active .swiper-slide__img,
+.swiper-slide-duplicate-active .swiper-slide__img,
+.swiper-slide-prev .swiper-slide__img {
+  animation: zoom 5s linear .5s normal both;
+}
+
+.swiper-slide__img img {
+  object-fit: cover;
+  width: 100%;
+  z-index: 1;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.naiyou .swiper-slide {
+  flex-direction: column;
+  align-items: center;
+}
+
+.nennpyou_u .swiper {
+  overflow: hidden;
+}
+
+.nennpyou_u .swiper-slide {
+  min-height: 400px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  position: relative;
+}
+.title {
+  position: absolute;
+  z-index: 9;
+  color: #E5F7FD;
+  font-size: 80px;
+  margin: 150px 0px 20px 10%;
+  text-align: left;
 }
 li{
     margin-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
 }   
-.shoukai_u{
-    position: absolute;
-    margin: 20px;
-    top: 60%;
-    font-size: 100%;
-    color: #E5F7FD;
+.shoukai_u {
+  margin: 20px;
+  font-size: 100%;
+  color: #E5F7FD;
 }
 .shoukai_u h2{
+  
     display: flex;
     justify-content: space-between;
-} 
-.nennpyou_u{
-    position: absolute;
-    top: 75%;
-    min-height: 100%;
-    margin: auto;
-    background-color:#b2e6f9d0;
-    
 }
+.naiyou{
+  width: 100%;
+
+} 
+.nennpyou_u {
+  background-color: #b2e6f9d0;
+  position: relative;
+  margin: 50px auto;
+  padding: 20px 0;
+  min-height: 450px;
+  width: 100%;
+}
+
 .main{
     display: flex;
     justify-content: center;
@@ -78,11 +130,11 @@ li{
     border-radius: 30px;
     padding: 10px;
     width: 50%;
-    margin: 30px 30px;
+    margin: 30px 50px;
     background-color: #48abcfd5;
     color: #E5F7FD;
 }
-.sub{
+/*.sub{
     display: flex;
     justify-content: center;
     border: solid black 2px;
@@ -92,17 +144,21 @@ li{
     margin: 30px 30px;
     background-color: #488ccfd5;
     color: #E5F7FD;
+}*/
+
+.nennpyou_u p {
+  text-align: center;
+  margin: 10px 50px;
+  font-size: 130%;
 }
-.nennpyou_u p{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 30px;
-    font-size: 130%;
+
+.nennpyou_u img {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
-.nennpyou_u img{
-    margin: 30px;
-    max-width: 40%;
-}
+
 
 
 
